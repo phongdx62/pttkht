@@ -1,0 +1,68 @@
+*{margin:0;padding: 0; box-sizing: border-box;}
+
+
+.dichvu {
+	width: 100%;
+}
+
+.datlich {
+	width: 600px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+}
+
+.datlich > div {
+	text-align: center;
+	width: 200px;
+	border: 2px solid #eee;
+}
+
+.datlich > .homnay {
+	background-color: #C1FFC1;
+	
+}
+
+.datlich .homnay a {
+	text-decoration: none;
+	color: #f60;
+}
+
+.datlich > .ngaymai {
+	background-color: #C1FFC1;
+	
+}
+
+.datlich .ngaymai a {
+	text-decoration: none;
+	color: blue;
+}
+
+.datlich > .ngaykia {
+	background-color: #C1FFC1;
+
+}
+
+.datlich .ngaykia a {
+	text-decoration: none;
+	color: blue;
+}
+
+.thoigian {
+	width: 600px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+}
+
+.thoigian > div > div {
+	text-align: center;
+	width: 150px;
+	border: 2px solid #eee;
+
+}
+
+.thoigian a {
+	text-decoration: none;
+	color: #000;
+}

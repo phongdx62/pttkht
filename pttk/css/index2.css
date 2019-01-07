@@ -1,0 +1,59 @@
+*{margin:0;padding: 0; box-sizing: border-box;}
+
+
+.dichvu {
+	width: 100%;
+}
+
+.datlich {
+	width: 600px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+}
+
+.datlich > div {
+	text-align: center;
+	width: 200px;
+	border: 2px solid #eee;
+}
+
+.datlich > .ngaymai {
+	background-color: #000;
+	color: #fff;
+}
+
+.datlich .ngaymai a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.datlich .homnay a {
+	text-decoration: none;
+	color: #000;
+}
+
+.datlich .ngaykia a {
+	text-decoration: none;
+	color: #000;
+}
+
+.thoigian {
+	width: 600px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.thoigian > div {
+	text-align: center;
+	width: 150px;
+	border: 2px solid #eee;
+}
+
+.thoigian a {
+	text-decoration: none;
+	color: #000;
+}
