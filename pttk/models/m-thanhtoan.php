@@ -55,27 +55,16 @@
 		}
 
 
-		public function m_add_tt($matt, $madvdl, $manv, $makh)
+		public function m_add_tt($madvdl, $manv, $makh)
 		{
-			$sql = "SELECT matt FROM thanhtoan WHERE matt = '$matt'";
-			$this->query($sql);
-
-			$num = $this->num_rows();
-			if($num>0)
-			{
-				return 'fail';
-			}
-			else
-			{
-				$sql = "INSERT INTO thanhtoan (matt,
-										       madvdl,
-										       manv,
-										       makh) VALUES ('$matt',
-														     '$madvdl',
-														     '$manv',
-														 	 '$makh')";
-				$this->query($sql);
-			}
+			$sql = "INSERT INTO thanhtoan (
+									       madvdl,
+									       manv,
+									       makh) VALUES (
+													     '$madvdl',
+													     '$manv',
+													 	 '$makh')";
+			$this->query($sql);	
 		}
 
 

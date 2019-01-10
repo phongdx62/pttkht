@@ -22,14 +22,13 @@
 			$gio = addslashes(stripslashes($_POST["gio"]));
 			$ngay = addslashes(stripslashes($_POST["ngay"]));
 
-			if(isset($makh) && isset($manv) && isset($gio) && isset($ngay))
-			{
+						
 				$hd->m_edit_hd($sohd, $makh, $manv, $gio, $ngay);
 				$hd->disconnect();
 				ob_start();
 				header('Location: list-hd.php');
 				ob_end_flush();
-			}
+			
 		}	
     }
 	else

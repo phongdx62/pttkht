@@ -17,7 +17,7 @@
 		{
 			//stripslashes loại bỏ ký tự \ trước dấu '
 			$makh = addslashes(stripslashes($_POST["makh"]));
-			$manv = addslashes(stripslashes($_POST["manv"]));
+			$manv = $_SESSION["id"];
 			$gio = addslashes(stripslashes($_POST["gio"]));
 			$ngay = addslashes(stripslashes($_POST["ngay"]));
 			

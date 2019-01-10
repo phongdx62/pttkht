@@ -24,6 +24,10 @@
 				}
 			}
 		}
+		else
+		{
+			$msg = "<p style='color: red;'>* Bạn cần đăng nhập để đặt trước lịch hẹn</p>";
+		}
 			 		
 ?>
 		<br>
